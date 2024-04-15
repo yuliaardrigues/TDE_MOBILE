@@ -17,6 +17,5 @@ class MainActivity : AppCompatActivity() {
             var nome = binding.nome.text.toString().trim()
             binding.result.text = "Ola," + nome
         }
-
     }
 }
