@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+ 
+  <EditText
+          android:id="@+id/nome"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:hint  = "Usuario"
+          android:minWidth="200dp"
+          android:padding="15dp"
+          android:layout_marginTop="15dp"
+          />
+
+
+  <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+          android:text="Botao"
+          android:id="@+id/button"
+          android:padding="15dp"
+          android:layout_marginTop="50dp"
+ />
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:id="@+id/result"
+            android:layout_marginTop="30dp"
+/>
+</LinearLayout>
