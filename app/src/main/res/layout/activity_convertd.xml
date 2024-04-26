@@ -13,30 +13,30 @@
     <EditText
             android:layout_width="232dp"
             android:layout_height="50dp"
-            android:id="real"
+            android:id="@+id/real"
             android:minWidth="200dp"
             android:padding="15dp"
-            android:text="Dolar em Real:"
+            android:hint="Dolar em Real:"
 
 
     />
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-       android:text=""
-              android:minWidth="200dp"
-              android:padding="30dp"
-              android:layout_marginTop="80dp"
-              android:backgroundTint=""
-
-   />
-
 
     <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:id="botaoreal"
+            android:id="@+id/botaoreal"
             android:hint="Coverter"
             android:layout_marginTop="30dp"
             android:backgroundTint="#00FA9A"
 
+    />
+    <Button
+            android:id="@+id/voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Voltar"
+            android:backgroundTint="@color/cardview_light_background"
+            android:layout_marginTop="10dp"
+    />
 
 
 </LinearLayout>

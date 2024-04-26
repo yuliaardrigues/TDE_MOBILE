@@ -15,13 +15,14 @@ class Conversor : AppCompatActivity() {
 
         binding = ActivityConversorBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        val intent = Intent(this, convertr::class.java)
 
         binding.bt.setOnClickListener {
-            startActivity(Intent(this, ActivityRealBinding::class.java))
+            startActivity(intent)
         }
+        val intentDolar = Intent(this, convertd::class.java)
         binding.bts.setOnClickListener {
-            startActivity(Intent(this, ActivityConvertdBinding::class.java))
+            startActivity(intentDolar)
         }
     }
 }

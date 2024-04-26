@@ -8,16 +8,16 @@
         android:gravity="center"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
- 
-  <EditText
-          android:id="@+id/nome"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:hint  = "Usuario"
-          android:minWidth="200dp"
-          android:padding="15dp"
-          android:layout_marginTop="15dp"
-          />
+
+    <EditText
+            android:id="@+id/nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint  = "Usuario"
+            android:minWidth="200dp"
+            android:padding="15dp"
+            android:layout_marginTop="15dp"
+    />
 
     <EditText
             android:id="@+id/senha"
@@ -29,9 +29,9 @@
             android:layout_height="wrap_content"
 
 
-              />
-  <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
-          android:hint="Login"
+    />
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:hint="Login"
 
 
 
@@ -41,13 +41,12 @@
 
 
 
-          android:id="@+id/button"
-          android:minWidth="150dp"
+            android:id="@+id/btnLogin"
+            android:minWidth="150dp"
 
-          android:backgroundTint="#00FA9A"
-
-          android:padding="15dp"
-          android:layout_marginTop="50dp"
- />
+            android:backgroundTint="#00FA9A"
+            android:padding="15dp"
+            android:layout_marginTop="50dp"
+    />
 
 </LinearLayout>

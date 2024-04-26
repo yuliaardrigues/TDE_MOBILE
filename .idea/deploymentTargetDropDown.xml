@@ -10,23 +10,12 @@
               <deviceKey>
                 <Key>
                   <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="$USER_HOME$/.var/app/com.jetbrains.IntelliJ-IDEA-Ultimate/config/.android/avd/Pixel_4_API_33.avd" />
+                  <value value="$USER_HOME$/.var/app/com.jetbrains.IntelliJ-IDEA-Ultimate/config/.android/avd/Medium_Phone_API_26.avd" />
                 </Key>
               </deviceKey>
             </Target>
           </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-04-25T20:16:36.886290008Z" />
-          <targetsSelectedWithDialog>
-            <Target>
-              <type value="QUICK_BOOT_TARGET" />
-              <deviceKey>
-                <Key>
-                  <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="$USER_HOME$/.var/app/com.jetbrains.IntelliJ-IDEA-Ultimate/config/.android/avd/Pixel_4_API_33.avd" />
-                </Key>
-              </deviceKey>
-            </Target>
-          </targetsSelectedWithDialog>
+          <timeTargetWasSelectedWithDropDown value="2024-04-25T22:16:18.035623177Z" />
         </State>
       </entry>
     </value>
